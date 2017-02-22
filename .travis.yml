@@ -3,3 +3,8 @@ install:
 
 script:
 - npm run alletests
+
+language: node_js
+node_js:
+  - "iojs"
+  - "6"
